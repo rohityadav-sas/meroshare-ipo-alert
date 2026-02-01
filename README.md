@@ -156,15 +156,13 @@ You can also trigger it manually from the **Actions** tab.
 </td>
 <td>
 
-**IPO Result Alert**
-
 ```
 🎊 IPO RESULT PUBLISHED
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🏢 Shikhar Power Development Ltd.
 
-🔍 View IPO Result: 👉 [ 🔍 VIEW IPO RESULT ](https://iporesult.cdsc.com.np)
+🔍 View IPO Result: Result
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🍀 Best of luck to all applicants!
