@@ -1,8 +1,12 @@
 {
   "packageManager": "pnpm@10.28.2",
   "type": "module",
+  "scripts": {
+    "start": "tsx --env-file=.env src/main.ts"
+  },
   "dependencies": {
-    "ky": "^1.14.3"
+    "ky": "^1.14.3",
+    "tsx": "^4.21.0"
   },
   "devDependencies": {
     "@types/node": "^25.1.0"
