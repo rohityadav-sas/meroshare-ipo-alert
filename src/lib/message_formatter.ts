@@ -23,7 +23,7 @@ export function format_ipo_result_message(result_name: string): string {
         `━━━━━━━━━━━━━━━━━━━━━━\n\n` +
         `<b>🏢 ${result_name}</b>\n\n` +
         `🔍 View IPO Result: ` +
-        `👉 <a href="https://iporesult.cdsc.com.np/">Result</a>\n\n` +
+        `<a href="https://iporesult.cdsc.com.np/">Result</a>\n\n` +
         `━━━━━━━━━━━━━━━━━━━━━━\n` +
         `🍀 <i>Best of luck to all applicants!</i>`
     );
