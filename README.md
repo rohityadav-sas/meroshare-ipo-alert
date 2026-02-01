@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=MeroShare%20IPO%20Alert&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Never%20miss%20an%20IPO%20again&descAlignY=55&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=NEPSE%20IPO%20Alert&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Never%20miss%20an%20IPO%20again&descAlignY=55&descSize=18" width="100%"/>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <b>🇳🇵 Automated IPO monitoring for Nepal's MeroShare with instant Telegram notifications</b>
+  <b>🇳🇵 Automated NEPSE IPO monitoring with instant Telegram notifications</b>
 </p>
 
 ---
@@ -178,8 +178,8 @@ You can also trigger it manually from the **Actions** tab.
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/meroshare-ipo-alert.git
-cd meroshare-ipo-alert
+git clone https://github.com/yourusername/nepse-ipo-alert.git
+cd nepse-ipo-alert
 
 # Install dependencies
 pnpm install
@@ -197,7 +197,7 @@ pnpm tsx src/main.ts
 ## 📁 Project Structure
 
 ```
-📦 meroshare-ipo-alert
+📦 nepse-ipo-alert
 ├── 📂 .github/workflows
 │   └── ipo-monitor.yml      # GitHub Actions workflow
 ├── 📂 src
