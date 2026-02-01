@@ -1,0 +1,10 @@
+{
+  "packageManager": "pnpm@10.28.2",
+  "type": "module",
+  "dependencies": {
+    "ky": "^1.14.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0"
+  }
+}

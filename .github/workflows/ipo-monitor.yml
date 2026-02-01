@@ -1,0 +1,44 @@
+name: IPO Monitor
+
+on:
+  schedule:
+    - cron: "15 4,6,8,10 * * *"
+  workflow_dispatch:
+
+jobs:
+  check-ipo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "latest"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run IPO Monitor
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          ADMIN: ${{ secrets.ADMIN }}
+          CHANNEL: ${{ secrets.CHANNEL }}
+          USER: ${{ secrets.USER }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+        run: pnpm tsx src/main.ts
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/data/ipo.json src/data/ipo_results.json
+          git diff --staged --quiet || git commit -m "🔄 Update IPO data - $(date +'%Y-%m-%d %H:%M')"
+          git push
