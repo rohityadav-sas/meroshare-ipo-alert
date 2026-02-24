@@ -1,6 +1,14 @@
 [
     {
         "subGroup": "For General Public",
+        "companyName": "Palpa Cement Industries Limited",
+        "shareTypeName": "IPO",
+        "shareGroupName": "Ordinary Shares",
+        "issueOpenDate": "Feb 24, 2026 10:00:00 AM",
+        "issueCloseDate": "Feb 27, 2026 5:00:00 PM"
+    },
+    {
+        "subGroup": "For General Public",
         "companyName": "8% ICFC Finance Limited Debenture 2089",
         "shareTypeName": "IPO",
         "shareGroupName": "Debentures",
@@ -30,13 +38,5 @@
         "shareGroupName": "Ordinary Shares",
         "issueOpenDate": "Feb 5, 2026 10:00:00 AM",
         "issueCloseDate": "Feb 9, 2026 5:00:00 PM"
-    },
-    {
-        "subGroup": "For General Public",
-        "companyName": "Suryakunda Hydro Electric Ltd.",
-        "shareTypeName": "IPO",
-        "shareGroupName": "Ordinary Shares",
-        "issueOpenDate": "Feb 1, 2026 12:30:00 PM",
-        "issueCloseDate": "Feb 4, 2026 8:00:00 PM"
     }
 ]
