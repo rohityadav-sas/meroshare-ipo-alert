@@ -5,6 +5,14 @@
         "shareTypeName": "IPO",
         "shareGroupName": "Open Ended Mutual Fund",
         "issueOpenDate": "Mar 12, 2026 10:00:00 AM",
+        "issueCloseDate": "Mar 26, 2026 5:00:00 PM"
+    },
+    {
+        "subGroup": "For General Public",
+        "companyName": "Garima Subarna Yojana",
+        "shareTypeName": "IPO",
+        "shareGroupName": "Open Ended Mutual Fund",
+        "issueOpenDate": "Mar 12, 2026 10:00:00 AM",
         "issueCloseDate": "Mar 16, 2026 5:00:00 PM"
     },
     {
@@ -30,13 +38,5 @@
         "shareGroupName": "Debentures",
         "issueOpenDate": "Feb 23, 2026 10:00:00 AM",
         "issueCloseDate": "Feb 26, 2026 5:00:00 PM"
-    },
-    {
-        "subGroup": "For General Public",
-        "companyName": "Super Khudi Hydropower  Limited",
-        "shareTypeName": "IPO",
-        "shareGroupName": "Ordinary Shares",
-        "issueOpenDate": "Feb 17, 2026 10:00:00 AM",
-        "issueCloseDate": "Feb 23, 2026 5:00:00 PM"
     }
 ]
