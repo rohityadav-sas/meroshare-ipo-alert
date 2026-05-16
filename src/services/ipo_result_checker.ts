@@ -14,7 +14,7 @@ export async function check_new_ipo_results(): Promise<string[]> {
 
     const response = await ky.get(API_ENDPOINTS.ipo_result, {
         headers: {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
         }
     });
 

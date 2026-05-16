@@ -39,6 +39,7 @@ jobs:
         run: pnpm start
 
       - name: Commit changes
+        if: ${{ always() }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"

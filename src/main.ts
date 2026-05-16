@@ -37,7 +37,7 @@ async function main() {
             await handle_error(results[1].reason, "IPO Result Checker");
         }
 
-        if (results.some((result) => result.status === "rejected")) {
+        if (results[0].status === "rejected") {
             process.exitCode = 1;
         }
 
